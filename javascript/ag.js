@@ -13,24 +13,25 @@ let  pagamento = "debito";
  //}
 
 
-switch (pagamento) {
-    case "debito":
-        console.log("você recebeu 10% de desconto")
-        break;
-        case "dinheiro":
+//switch (pagamento) {
+    //case "debito":
+      //  console.log("você recebeu 10% de desconto")
+      //  break;
+      //  case "dinheiro":
+         //   console.log("15% de desconto")
+         //   break;
+      //  case "pix":
             console.log("15% de desconto")
-            break;
-        case "pix":
-            console.log("15% de desconto")
-            break;
-        case "2x":
-            console.log("15% de descontopreço normal de entiqueta sem juros") 
+           // break;
+      //  case "2x":
+        //    console.log("15% de descontopreço normal de entiqueta sem juros") 
             
             
-        break;
+      //  break;
 
-    default:
+    //default:
         
-    console.log("preço normal de entiqueta mais juros 10%")
-        break;
-}
+    //.log("preço normal de entiqueta mais juros 10%")
+       // break;
+//}
+
