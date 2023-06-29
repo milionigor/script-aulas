@@ -151,12 +151,43 @@ if (media < 40){
 
 
 
-function igor(ida){
-    
-   if(ida  = 5 ){
-    return 'bebe';
-}else {
-    return 'adolecente';
+//function igor(idade){
+   // if (idade <=5){
+       // return "é um Bebê"
+    //}//else if(idade >=6 && idade <=14){
+      //  return "É uma criança"
+    //}else if (idade >=14 && idade <=17){
+       // return "É um Adolescente"
+   // }else if (idade >=18 && idade <=60){
+       // return "É um Adulto"
+   // }else if (idade >=61 && idade <=80){
+//return "É adulto"
+   // }else{
+      //  return "É um ancião"
+   // }
+//}  
+//console.log (igor (50));
+ 
+
+function calcularimposto (salario){
+    let aliquota;
+    if ( salario <=0 && salario<=1100 ){
+        return aliquota=0.05
+    }else if (salario >=1100.01 && salario <=2500){
+        return aliquota =0.1
+    }else {
+        return aliquota = 0.15
+    }
 }
-}
-console.log(ida(5));
+console.log (calcularimposto (3000));
+
+const valorsalario =2000;
+const valorbenerficios =250;
+//calcular o imposto
+
+const valorimposto=calcularimposto (valorsalario)*valorsalario
+ 
+console.log (valorimposto);
+
+const salarioFinal =valorsalario-valorimposto+valorbenerficios
+console.log(salarioFinal);
